@@ -4,13 +4,13 @@ This repository demonstrates a GitHub Actions workflow with matrix build strateg
 
 ## Features
 
-- Parallel builds across multiple Node.js versions (14, 16, 18)
+- Parallel builds across multiple Node.js versions (18, 20, 22)
 - Automated artifact generation and upload
 - Matrix identifier: `matrix-932a0b6`
 
 ## Contact
 
-Email: your-email@example.com
+Email: 22f1001861@ds.study.iitm.ac.in
 
 ## Workflow
 
