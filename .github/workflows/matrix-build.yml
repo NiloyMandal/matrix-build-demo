@@ -12,14 +12,14 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        node-version: [14, 16, 18]
+        node-version: [18, 20, 22]
         include:
-          - node-version: 14
-            variant: 'lts-fermium'
-          - node-version: 16
-            variant: 'lts-gallium'
           - node-version: 18
             variant: 'lts-hydrogen'
+          - node-version: 20
+            variant: 'lts-iron'
+          - node-version: 22
+            variant: 'current'
     
     steps:
       - name: Checkout code
